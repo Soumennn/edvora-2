@@ -10,7 +10,7 @@
 
 .product-item-container {
 
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 
  /* ::-webkit-scrollbar {

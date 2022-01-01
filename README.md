@@ -16,7 +16,7 @@ The product list is horizontal scrollable list. \
 
 Please note the UI should be responsive and same as it is shown in right side. \
 
-## `response from the url is stored in data.js inside 'src' folder`
+## `response from the api is attained using axios. Data changes here dynamically with respect to the different responses from the given endpoint`
 
 
 ## Dropdown functionalities `Task completed`
@@ -38,7 +38,6 @@ https://edvora-soumen.netlify.app/
 
 
 --------------------------------------------------------------------------------------------------------
-
 
 
 

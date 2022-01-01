@@ -2,7 +2,7 @@ import "./productitem.css"
 
 function ProductItem({info}) {
     return (
-        <div className = "ProductItem grid grid-rows-2 bg-[#292929] rounded-lg h-auto ">
+        <div className = " cursor-pointer ProductItem grid grid-rows-2 bg-[#292929] rounded-lg h-auto ">
 
         <div className="image-brand-div flex justify-center p-4 ">
            

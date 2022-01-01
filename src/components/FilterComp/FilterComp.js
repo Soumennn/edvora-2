@@ -1,26 +1,32 @@
 import "./filtercomp.css"
-import { data } from '../../data'; // importing data from data.js
+ // importing data from Home.js
+import { data } from '../Home/Home';
 import { useState } from "react";
 
+const statesArr = [];
+const citiesArr = [];    
+// initialising  the arrays for filtering based o dropdown items selection (products/states)
+let filteredProvinces = [];
+let filteredCities = [];
+
+
+
+
+
+
+    function FilterComp() {
 
     // array for aquiring all the states
-    const statesArr = [];
+
     data.map((item)=> (
         statesArr.includes(item.address.state) ? null : statesArr.push(item.address.state)
     ))
     
     //array for aquiring all the cities 
-    const citiesArr = [];
+
     data.map((item)=> (
         citiesArr.includes(item.address.city) ? null : citiesArr.push(item.address.city)
     ))
-
-    // initialising  the arrays for filtering based o dropdown items selection (products/states)
-    let filteredProvinces = [];
-    let filteredCities = [];
-
-    function FilterComp() {
-
 
 
     let [prodBtn,setProdBtn] = useState(()=> false);
@@ -100,9 +106,6 @@ import { useState } from "react";
 
         }
     }
-
-
-
 
 
     return (

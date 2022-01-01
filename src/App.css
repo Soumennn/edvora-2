@@ -40,8 +40,8 @@ html {
 
 ::-webkit-scrollbar {
   display: block;
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.8rem;
+  height: 0.8rem;
 }
 
 @supports ( scrollbar-color: white grey) {
