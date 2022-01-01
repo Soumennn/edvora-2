@@ -1,0 +1,22 @@
+
+.left-div {
+    max-height: 100%;
+    overflow-y: auto;
+}
+.right-div {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.product-item-container {
+
+    overflow-x: auto;
+}
+
+ /* ::-webkit-scrollbar {
+    height: 0.4rem;
+} */
+
+
+
+  

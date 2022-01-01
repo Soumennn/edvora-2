@@ -1,0 +1,23 @@
+
+/* Styling for filter menu section */
+
+.products, .states, .cities {
+    position: relative;
+}
+
+.products-dropdown {
+    width: 100%;
+    max-height: 25rem;
+    overflow-y: auto;
+}
+
+.states-dropdown {
+    width: 100%;
+    max-height: 25rem;
+    overflow-y: auto;
+}
+.cities-dropdown {
+    width: 100%;
+    max-height: 25rem;
+    overflow-y: auto;
+}
